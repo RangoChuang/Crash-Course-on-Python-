@@ -38,8 +38,6 @@ def calculate_frequencies(file_contents):
     "have", "has", "had", "do", "does", "did", "but", "at", "by", "with", "from", "here", "when", "where", "how", \
     "all", "any", "both", "each", "few", "more", "some", "such", "no", "nor", "too", "very", "can", "will", "just"]
     
-    # LEARNER CODE START HERE
-    
     frequencies = {}
     file_contents = file_contents.lower()
     x = file_contents.split()
